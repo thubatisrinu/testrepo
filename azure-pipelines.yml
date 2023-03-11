@@ -1,0 +1,4 @@
+- task: SqlDacpacDeployment@1
+  inputs:
+    ConnectionString: 'Data Source=LAKSHMISRINIVAS\SLSERVER2019;Initial Catalog=sales;User ID=test;Password=test123'
+    SqlFile: table.sql
